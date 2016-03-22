@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="太好了亲爱的~MUA"
+        android:textSize="40dp"
+        android:textColor="#ff0000"
+        android:id="@+id/textView18"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="等我"
+        android:textSize="40dp"
+        android:textColor="#ff0000"
+        android:id="@+id/textView19"
+        android:layout_marginTop="93dp"
+        android:layout_below="@+id/textView18"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

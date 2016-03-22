@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="      我爱旅游，爱骑行，也爱电影，爱音乐，有时宅男出门又停不下来。我可以陪你逛街走到天黑黑，也可以睡到天荒地老。你愿意让我陪你走吗？"
+        android:textSize="30dp"
+        android:id="@+id/textView12"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="滚"
+        android:id="@+id/no"
+        android:layout_below="@+id/textView12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="95dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="勉强答应"
+        android:textSize="35dp"
+        android:id="@+id/yes"
+        android:layout_alignTop="@+id/no"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="73dp"
+        android:layout_marginEnd="73dp" />
+</RelativeLayout>

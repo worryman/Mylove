@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="      但我也有很多优点阿~我脾气好，温柔体贴，有耐心，兼职业余段子手，乐于助人有耐心，不铺张浪费，懂得生活。乒乓球羽毛球虽然懒得打，但你要打我也打得不错哦。你要是想健身，我也可以奉陪。你要试一试嘛?  "
+        android:id="@+id/textView14"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="瞧不起你"
+        android:id="@+id/no"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="105dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WHO怕WHO!"
+        android:id="@+id/yes"
+        android:textSize="35dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/no"
+        android:layout_toEndOf="@+id/no" />
+
+</RelativeLayout>
